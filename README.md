@@ -68,16 +68,20 @@ Constructed behavioral metrics at daily account level:
 ---
 
 # 💡 Strategy Recommendations (Part C)
+### Strategy 1: Volatility-Aware Leverage Control During Fear regimes:
+Cap leverage dynamically
+Reduce position sizes by ~25%
+Tighten stop-loss levels This captures volatility opportunities while reducing drawdown risk.
 
-### 1️⃣ Risk Control During Fear Regimes
-During Fear periods, high-frequency traders should reduce leverage and trade size to limit drawdown risk caused by elevated volatility.
+### Strategy 2: Selective Aggression During Greed During Greed regimes:
+Allow leverage expansion for high win-rate traders
+Encourage trend-following strategies
+Maintain conservative exposure for inconsistent traders
 
-### 2️⃣ Selective Aggression During Greed
-During Greed regimes, increase exposure only for consistently profitable trader segments while maintaining strict risk thresholds for aggressive profiles.
-
-### 3️⃣ Regime-Based Position Sizing
-Implement sentiment-adaptive position sizing where exposure dynamically adjusts based on market regime volatility.
-
+### Strategy 3: Overtrading Control in Fear Since trade frequency spikes dramatically during Fear:
+Limit daily trade count
+Pause after consecutive losses
+Reduce emotional trading This improves risk-adjusted returns
 ---
 
 # 📊 Output Visualizations
